@@ -1,0 +1,10 @@
+database:
+  hosts: 127.0.0.1
+  port: 27017
+  username: root
+  password: root
+  db_name: ganeshutsav
+  collections:
+    - user
+    - mandal
+    - pathak
