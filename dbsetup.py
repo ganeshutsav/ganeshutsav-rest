@@ -1,3 +1,6 @@
+"""
+dbsetup.py
+"""
 import logging
 import pymongo
 import sys
@@ -16,3 +19,4 @@ if __name__ == '__main__':
         log.info('Recreating collection: {0}'.format(collection))
         db.drop_collection(collection)
         db.create_collection(collection)
+        
